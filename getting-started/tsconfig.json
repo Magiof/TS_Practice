@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {    //tsc options
+        "allowJs" : true,   //이 프로젝트에 자바스크립트 허용한다.
+        "checkJs" : true,   //@ts-check 기능
+        "noImplicitAny": true   //모든 타입에 대해서 최소한 any는 넣어야한다.
+    }
+}
