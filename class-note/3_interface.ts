@@ -14,7 +14,7 @@ function getUser(user: User) {
   //특정 형식을 사용하는 데이터만 받겠다
   console.log(user);
 }
-const capt = {
+var capt = {
   name: "캡틴",
   age: 100,
 };
