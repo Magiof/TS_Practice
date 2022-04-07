@@ -104,4 +104,13 @@ class AddressBook {
   /* ------------------------------------------------ */
 }
 
+let div = document.querySelector('div');
+if (div) {
+  // div의 값이 null 일수도 있기 때문에 null이 아니란걸 보장해주기 위해 if문을 사용
+  div.innerText;
+}
+// 위 내용을 타입 단언(type-assertion) 을 하게되면
+let div1 = document.querySelector('div1') as HTMLDivElement;
+div1.innerText;
+
 new AddressBook();
